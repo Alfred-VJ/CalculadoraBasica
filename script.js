@@ -6,10 +6,7 @@ function mostrarPantalla() {
 }
 
 function clickBtn(value) {
-    console.log(resultado);
-    console.log(resultado.length);
-    console.log(resultado.length > 17);
-    if (resultado.length > 17) return false;
+    if (resultado.length > 16) return false;
     if (resultado == '0') {
         operationCompleted = false;
         if (validateValue(value)) return false;
