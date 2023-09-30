@@ -1,31 +1,47 @@
 body {
     background-color: rgb(76, 82, 84);
+    margin: 0;
+}
+section{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     height: 100vh;
     margin: 0;
 }
 
-.calculadora{
-    border: solid 3px rgb(63, 63, 255);
-    border-radius: 10px;
-    background-color: rgb(63, 63, 255);
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.content-btn{
+.title h1{
+    color: aliceblue;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.calculadora {
+    border: solid 3px rgb(63, 63, 255);
+    border-radius: 10px;
+    background-color: rgb(63, 63, 255);    
+}
+
+.content-btn {
     padding: 0 20px;
 }
-.padingH{
+
+.padingH {
     padding: 20px 20px 0 20px;
 }
-.padingD{
+
+.padingD {
     padding: 0 20px 20px 20px;
     display: flex;
     justify-content: center;
 }
 
-.btn{
+.btn {
     width: 80px;
     height: 80px;
     font-size: 25px;
@@ -34,9 +50,10 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin: 5px;    
+    margin: 5px;
 }
-.btn0{
+
+.btn0 {
     width: 75%;
     height: 80px;
     font-size: 25px;
@@ -45,31 +62,34 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin: 5px;    
+    margin: 5px;
 }
-.btn:hover{
+
+.btn:hover {
     background-color: rgb(185, 255, 98);
     color: black;
 }
-.btn0:hover{
+
+.btn0:hover {
     background-color: rgb(185, 255, 98);
     color: black;
 }
-.content-pantalla{
+
+.content-pantalla {
     display: flex;
     justify-content: center;
 }
-.pantalla{  
+
+.pantalla {
     border-radius: 10px;
     background-color: rgb(75, 75, 75);
     width: 90%;
     margin-top: 5%;
 }
 
-.result{
+.result {
     font-size: 30px;
     color: aliceblue;
-    margin: 10px;    
+    margin: 10px;
     text-align: end;
 }
-

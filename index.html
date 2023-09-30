@@ -1,51 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Claculadora</title>
-</head>
-<body>
-    <div class="calculadora">
+  </head>
+  <body>
+      <div class="title">
+          <h1>Calculadora</h1>
+      </div>
+    <section>
+      <div class="calculadora">
         <div class="content-pantalla">
-            <div class="pantalla" id="pantalla">
-                <div class="result" id="result">
-                    0
-                </div>
-            </div>
+          <div class="pantalla" id="pantalla">
+            <div class="result" id="result">0</div>
+          </div>
         </div>
         <div class="contenedor-botones">
-            <div class="content-btn padingH">
-                <button class="btn" onclick="deleteLastCh()"><<</button>
-                <button class="btn" onclick="resetResult()">CC</button>
-                <button class="btn" onclick="clickBtn('/')">/</button>
-                <button class="btn" onclick="clickBtn('*')">x</button>
-            </div>
-            <div class="content-btn">
-                <button class="btn" onclick="clickBtn('7')">7</button>
-                <button class="btn" onclick="clickBtn('8')">8</button>
-                <button class="btn" onclick="clickBtn('9')">9</button>
-                <button class="btn" onclick="clickBtn('+')">+</button>
-            </div>
-            <div class="content-btn">
-                <button class="btn" onclick="clickBtn('4')">4</button>
-                <button class="btn" onclick="clickBtn('5')">5</button>
-                <button class="btn" onclick="clickBtn('6')">6</button>
-                <button class="btn" onclick="clickBtn('-')">-</button>
-            </div>
-            <div class="content-btn">
-                <button class="btn" onclick="clickBtn('1')">1</button>
-                <button class="btn" onclick="clickBtn('2')">2</button>
-                <button class="btn" onclick="clickBtn('3')">3</button>
-                <button class="btn" onclick="calcularResultado()">=</button>
-            </div>
-            <div class="content-btn padingD">
-                <button class="btn0" onclick="clickBtn('0')">0</button>              
-                <button class="btn" onclick="clickBtn('.')">.</button>
-            </div>
-        </div>       
-    </div>  
-    <script src="script.js"></script>   
-</body>
+          <div class="content-btn padingH">
+            <button class="btn" onclick="deleteLastCh()"><<</button>
+            <button class="btn" onclick="resetResult()">CC</button>
+            <button class="btn" onclick="clickBtn('/')">/</button>
+            <button class="btn" onclick="clickBtn('*')">x</button>
+          </div>
+          <div class="content-btn">
+            <button class="btn" onclick="clickBtn('7')">7</button>
+            <button class="btn" onclick="clickBtn('8')">8</button>
+            <button class="btn" onclick="clickBtn('9')">9</button>
+            <button class="btn" onclick="clickBtn('+')">+</button>
+          </div>
+          <div class="content-btn">
+            <button class="btn" onclick="clickBtn('4')">4</button>
+            <button class="btn" onclick="clickBtn('5')">5</button>
+            <button class="btn" onclick="clickBtn('6')">6</button>
+            <button class="btn" onclick="clickBtn('-')">-</button>
+          </div>
+          <div class="content-btn">
+            <button class="btn" onclick="clickBtn('1')">1</button>
+            <button class="btn" onclick="clickBtn('2')">2</button>
+            <button class="btn" onclick="clickBtn('3')">3</button>
+            <button class="btn" onclick="calcularResultado()">=</button>
+          </div>
+          <div class="content-btn padingD">
+            <button class="btn0" onclick="clickBtn('0')">0</button>
+            <button class="btn" onclick="clickBtn('.')">.</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
 </html>
